@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Montaña</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></head>
+
+<body>
+    <!-- ENCABEZADO -->
+    
+    <header class="header">        
+        <nav class="nav" aria-label="Navegación principal">
+            <h1 class="logo">Cafetería Montaña</h1>
+            <ul class="nav__links">
+                <li><a class="nav__link" href="#menu">Menú</a></li>               
+                <li><a class="nav__link" href="#promociones">Promociones</a></li>
+                <li><a class="nav__link" href="#testimonios">Testimonios</a></li>
+                <li><a class="nav__link" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero: fondo, título, subtítulo, botón -->
+        <section id="hero" class="hero">
+            <div class="hero__inner container">
+                <h2 class="hero-title">El sabor que te transporta</h2>
+                <p class="hero-subtitle">Café de especialidad y un ambiente acogedor para que te sientas como en casa.</p>
+                <a href="#menu" class="btn">Ver menú</a>
+            </div>
+        </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+    <!-- Sección MENÚ -->
+    
+    <section id="menu" class="featured-menu">
+        <div class="container">
+            <h2 class="section-title">Menú Destacado</h2>
+        <div class="menu-cards-grid">
+            <!-- Cada "article" es un ítem del menú -->
+            <article class="menu-card">
+                <img src="img/cafe.png" alt="Espresso Cima" class="card-image">
+                <h3 class="card-title">Espresso Cima</h3>
+                <p class="card-price">$4.500</p>
+            </article>
+            <article class="menu-card">
+                <img src="img/capuccino.png" alt="Capuccino Nevado" class="card-image">
+                <h3 class="card-title">Capuccino Nevado</h3>
+                <p class="card-price">$6.000</p>
+            </article>
+            <article class="menu-card">
+                <img src="img/medialuna.png" alt="Medialuna Artesanal" class="card-image">
+                <h3 class="card-title">Medialuna Artesanal</h3>
+                <p class="card-price">$2.000</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <!-- Sección de llamado a la acción -->
+<section class="callout">
+    <div class="container">
+        <p class="callout-text">¡Visítanos y recibe un 10% de descuento en tu primer pedido!</p>
+    </div>
+</section>
+
+    <!-- Sección PROMOCIONES -->
+    <section id="promociones" class="daily-promos">
+        <div class="container">
+            <h2 class="section-title">Promociones del Día</h2>
+            <div class="promo-grid">
+                <div class="promo-item">Combo 2x1 en Café Americano</div>
+                <div class="promo-item">Café con Leche + 2 Facturas por $7.500</div>
+                <div class="promo-item">Cappuccino Doble + Tostado por $10.000</div>
+                <div class="promo-item">Latte Glaciar $5.000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección TESTIMONIOS -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonios</h2>
+            <div class="testimonials-grid">
+                <!-- Cada "article" representa un testimonio de un cliente -->
+                <article class="testimonial-card">
+                    <p>"El mejor café que probé en mucho tiempo. El ambiente es super tranquilo y la atención es excelente."</p>
+                    <p class="author">- Ana R.</p>
+                </article>
+                <article class="testimonial-card">
+                    <p>"Un lugar perfecto para trabajar y disfrutar de un buen café. ¡Las medialunas son increíbles!"</p>
+                    <p class="author">- Juan S.</p>
+                </article>
+                <article class="testimonial-card">
+                    <p>"Siempre que puedo me escapo a la Cafetería Montaña. Es mi lugar en el mundo."</p>
+                    <p class="author">- Sofía P.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="contact-info">Av. de los Pinos 11, Villa Los Cipreses</p>
+            <a href="tel:+5491123456789" class="btn">Llamar Ahora</a>
+        </div>
+    </section>
+</main>
+
+    <!-- PIE DE PÁGINA -->
+<footer class="footer">
+    <p>&copy; 2025 Cafetería Montaña. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
